@@ -167,14 +167,21 @@ text-shadow: 0.1rem 0.1rem var(--negro);
 }
 .redes-sociales{
   background-color: rgba(214, 130, 186, 0.5);
-  text-align: center;
   font-size: 1.2rem;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 @media(max-width: 480px ){
   .redes-sociales{
       font-size: 1rem; 
     }           
+}
+.icons{
+  margin: 1rem;
 }
 footer{
   border-top: solid 0.2rem var(--negro);
